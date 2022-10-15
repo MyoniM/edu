@@ -1,4 +1,4 @@
-# edu - Amharic programming language! [Demo](https://edu.web.app)
+# edu - Amharic programming language! [demo](https://edu.web.app)
 
 edu is a minimal, transpiled programming language with not so easy syntax :P. edu is transpiled into `javascript`. <br/>
 
