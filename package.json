@@ -1,0 +1,24 @@
+{
+  "name": "edu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate-grammar": "nearleyc edu.ne -o edu.js",
+    "parse": "node parse.js input.edu",
+    "generate": "node generate.js input.ast",
+    "execute": "npm run generate-grammar && npm run parse && npm run generate && node input.js",
+    "run-all": "node run.js input.edu"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/moo": "^0.5.5",
+    "@types/mz": "^2.7.4",
+    "@types/nearley": "^2.11.2",
+    "moo": "^0.5.2",
+    "mz": "^2.7.0",
+    "nearley": "^2.19.5"
+  }
+}
