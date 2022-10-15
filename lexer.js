@@ -5,8 +5,8 @@ let lexer = moo.compile({
   comment: /\/\/.*?$/,
   number: /0|[1-9][0-9]*/,
   string: /"(?:\\["\\]|[^\n"\\])*"/,
-  keyword: ['true', 'false'],
-  // identifiers could be amh/eng/_/nums
+  keyword: ['እውነት', 'ውሸት'],
+  // identifiers could be amh/eng/_/nums (starts only with amh or eng)
   identifier: /[\u1200-\u137Fa-zA-Z][\u1200-\u137Fa-zA-Z_0-9]*/,
   lParen: '(',
   rParen: ')',

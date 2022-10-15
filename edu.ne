@@ -92,6 +92,7 @@ expr
 param
     ->  boolean     {% id %}
     |   array       {% id %}
+    |   myNull      {% id %}
     |   %string     {% id %}
     |   %number     {% id %}
     |   %identifier {% id %}
@@ -99,16 +100,19 @@ param
 # Data types
 # number and string data types are defined on the lexer
 
+# null type
+myNull -> "null" {% () => null %}
+
 # boolean data type
 boolean
-    ->  "true"
+    ->  "እውነት"
         {%
             () => ({
                 type: "boolean",
                 value: true
             })
         %}
-    |   "false"
+    |   "ውሸት"
         {%
             () => ({
                 type: "boolean",

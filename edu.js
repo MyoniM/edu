@@ -81,16 +81,18 @@ var grammar = {
     {"name": "expr", "symbols": ["lambda"], "postprocess": id},
     {"name": "param", "symbols": ["boolean"], "postprocess": id},
     {"name": "param", "symbols": ["array"], "postprocess": id},
+    {"name": "param", "symbols": ["myNull"], "postprocess": id},
     {"name": "param", "symbols": [(lexer.has("string") ? {type: "string"} : string)], "postprocess": id},
     {"name": "param", "symbols": [(lexer.has("number") ? {type: "number"} : number)], "postprocess": id},
     {"name": "param", "symbols": [(lexer.has("identifier") ? {type: "identifier"} : identifier)], "postprocess": id},
-    {"name": "boolean", "symbols": [{"literal":"true"}], "postprocess": 
+    {"name": "myNull", "symbols": [{"literal":"null"}], "postprocess": () => null},
+    {"name": "boolean", "symbols": [{"literal":"እውነት"}], "postprocess": 
         () => ({
             type: "boolean",
             value: true
         })
                 },
-    {"name": "boolean", "symbols": [{"literal":"false"}], "postprocess": 
+    {"name": "boolean", "symbols": [{"literal":"ውሸት"}], "postprocess": 
         () => ({
             type: "boolean",
             value: false

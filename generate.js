@@ -32,7 +32,6 @@ function generateJsFromExpr(node) {
       return js;
     case 'func_call':
       let funcName = node.func_name.value;
-      if (funcName === 'if') funcName = '$if';
       const args = node.args.map((arg) => generateJsFromExpr(arg)).join(', ');
       return `${funcName}( ${args} )`;
     case 'lambda':
