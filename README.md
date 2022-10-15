@@ -3,7 +3,7 @@
 edu is a minimal, transpiled programming language. edu is transpiled into javascript. <br/>
 
 ## How does edu work? <br/>
-![edu-process](https://user-images.githubusercontent.com/61096394/196007501-8769e9be-c7f0-466f-b65b-fb31dca20eb4.PNG)
+![edu-process](https://user-images.githubusercontent.com/61096394/196007766-c978b637-182b-4278-9dbe-6eb487cf42a6.PNG)
 
 ## Features <br/>
 - null
@@ -17,4 +17,10 @@ edu is a minimal, transpiled programming language. edu is transpiled into javasc
 - comments
 
 ## Examples <br/>
+`Null` <br/>
+```js
+  ባዶ := null
+  //transpiled version of the code
+  var ባዶ = null
+```
 
