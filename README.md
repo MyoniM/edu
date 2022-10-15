@@ -5,6 +5,15 @@ edu is a minimal, transpiled programming language with not so easy syntax :P. ed
 ## How does edu work? <br/>
 ![edu-process](https://user-images.githubusercontent.com/61096394/196007766-c978b637-182b-4278-9dbe-6eb487cf42a6.PNG)
 
+- `1) Lexer/ Tokenizer` <br/>
+  - A tokenizer splits the input into a stream of larger units called tokens. This happens in a separate stage before parsing. <br/>
+
+- `2) Parser` <br/>
+  - Parsers turn strings of characters into meaningful data structures (like a JSON object). The returned <br/> 
+
+- `3) Generator` <br/>
+  - Generator takes the parsed object and chages it to the desired language(Javascript) which in turn will be executed to generate a machine code. 
+  
 ## Features <br/>
 - null
 - variables
@@ -83,7 +92,7 @@ edu is a minimal, transpiled programming language with not so easy syntax :P. ed
   }
 ```
 
-`Fully working fibonachi sequence example` <br/>
+`A working fibonachi sequence example` <br/>
 ```js
   ፋይቦናቺ := (n) => {
     ከሆነ(ያንሳል(n 2)
