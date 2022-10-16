@@ -14,7 +14,7 @@ If you want to try it out, here is a [playground](https://edu-playground.web.app
   - Parsers turn strings of characters into meaningful data structures (like a JSON object). The returned <br/> 
 
 - `3) Generator` <br/>
-  - Generator takes the parsed object and chages it to the desired language(Javascript) which in turn will be executed to generate a machine code. 
+  - Generator takes the parsed object and changes it to the desired language(Javascript) which in turn will be executed to generate a machine code. 
   
 ## Features <br/>
 - null
@@ -94,7 +94,7 @@ If you want to try it out, here is a [playground](https://edu-playground.web.app
   }
 ```
 
-`A working fibonachi sequence example` <br/>
+`A working fibonacci sequence example` <br/>
 ```js
   ፋይቦናቺ := (n) => {
     ከሆነ(ያንሳል(n 2)
@@ -123,6 +123,6 @@ If you want to try it out, here is a [playground](https://edu-playground.web.app
     } )
   }
   
-  አውጣ(ፋይቦናቺ(10)) // 55 <= correnct answer
+  አውጣ(ፋይቦናቺ(10)) // 55 <= correct answer
 ```
 
