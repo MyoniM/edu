@@ -1,4 +1,4 @@
-<img width="719" alt="logo" src="https://user-images.githubusercontent.com/61096394/196056816-b056b3b5-7cb5-49bf-9ce0-fecf28f23a1d.png">
+<img width="200" alt="logo" src="https://user-images.githubusercontent.com/61096394/196056816-b056b3b5-7cb5-49bf-9ce0-fecf28f23a1d.png"><br/>
 # edu - Amharic programming language! 
 
 edu is a minimal, transpiled programming language with not so easy syntax :P. edu is transpiled into `javascript`. <br/>
