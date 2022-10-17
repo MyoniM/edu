@@ -3,7 +3,7 @@
 
 edu is a minimal, transpiled programming language with not so easy syntax :P. edu is transpiled into `javascript`. <br/>
 
-If you want to try it out, here is a [playground](https://edu-playground.web.app) <br/>
+If you want to try it out, here is a [playground](https://edu-playground.vercel.app/) <br/>
 
 ## How does edu work? <br/>
 ![edu-process](https://user-images.githubusercontent.com/61096394/196007766-c978b637-182b-4278-9dbe-6eb487cf42a6.PNG)
