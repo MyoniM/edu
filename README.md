@@ -1,7 +1,7 @@
 <img width="200" alt="logo" src="https://user-images.githubusercontent.com/61096394/196056816-b056b3b5-7cb5-49bf-9ce0-fecf28f23a1d.png"><br/>
 # edu - Amharic programming language! 
 
-edu is a minimal, transpiled programming language with not so easy syntax :P. edu is transpiled into `javascript`. <br/>
+edu is a minimal, transpiled programming language with not so easy syntax :P. edu transpiles to plain `javascript`. <br/>
 
 If you want to try it out, here is a [playground](https://edu-playground.vercel.app/) <br/>
 
